@@ -1,125 +1,131 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-    height: 100%;
-    font-family: 'Comfortaa', cursive;
-    background: linear-gradient(120deg, #A5DEE4, #A8D8B9, #FAD689); /* kamenozoki, byakuroku, usuki */
+html,
+body {
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(
+    120deg,
+    #a5dee4,
+    #a8d8b9,
+    #fad689
+  ); /* kamenozoki, byakuroku, usuki */
 }
-  
+
 .todo-list {
-    margin: 60px auto;
-    padding: 30px 0;
-    max-width: 500px;
-    color: #FFFFFB; /* gofun */
-    background-color: #268785; /* seiheki */
+  margin: 60px auto;
+  padding: 30px 0;
+  max-width: 500px;
+  color: #fffffb; /* gofun */
+  background-color: #268785; /* seiheki */
 }
 
 .todo-list h1 {
-    padding: 30px 60px 5px;
-    font-size: 36px;
-    letter-spacing: 0.2rem;
+  padding: 30px 60px 5px;
+  font-size: 36px;
+  letter-spacing: 0.2rem;
 }
 
 .todo-list h3 {
-    padding: 5px 60px;
-    font-size: 18px;
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.3);
+  padding: 5px 60px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.todo-list ul{
-    margin-top: 30px;
-    list-style: none;
+.todo-list ul {
+  margin-top: 30px;
+  list-style: none;
 }
 
 .todo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px 0;
-    padding: 30px 60px;
-    background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .todo-task {
-    margin: 0;
-    font-size: 24px;
+  margin: 0;
+  font-size: 24px;
 }
 
 .todo-task-completed {
-    margin: 0;
-    font-size: 24px;
-    opacity: 0.6;
-    text-decoration: line-through;
+  margin: 0;
+  font-size: 24px;
+  opacity: 0.6;
+  text-decoration: line-through;
 }
 
 .todo-button {
-    margin: 0 10px;
-    cursor: pointer;
-    border: none;
-    color: #FFFFFB; /* gofun */
-    background-color: transparent
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  color: #fffffb; /* gofun */
+  background-color: transparent;
 }
 
 .todo-button:focus {
-    outline: none;
+  outline: none;
 }
 
 .todo-form {
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.todo-form label{
-    padding: 15px 60px 5px;
-    min-width: 100%;
-    font-size: 24px;
+.todo-form label {
+  padding: 15px 60px 5px;
+  min-width: 100%;
+  font-size: 24px;
 }
 
-.todo-form input{
-    flex: 3;
-    margin: 5px 0 30px 60px;
-    padding-left: 15px;
-    border: none;
-    background-color: #FFFFFB; /* gofun */
+.todo-form input {
+  flex: 3;
+  margin: 5px 0 30px 60px;
+  padding-left: 15px;
+  border: none;
+  background-color: #fffffb; /* gofun */
 }
 
-.todo-form button{
-    flex: 1;
-    margin: 5px 60px 30px 15px;
-    padding: 0;
-    font-size: 18px;
-    border: none;
-    color: #268785; /* seiheki */
-    background-color: #FFFFFB; /* gofun */
+.todo-form button {
+  flex: 1;
+  margin: 5px 60px 30px 15px;
+  padding: 0;
+  font-size: 18px;
+  border: none;
+  color: #268785; /* seiheki */
+  background-color: #fffffb; /* gofun */
 }
 
 .todo-edit-form {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.todo-edit-form input{
-    flex: 3;
-    margin: 3px 0;
-    padding-left: 15px;
-    font-size: 18px;
-    border: none;
-    background-color: #FFFFFB; /* gofun */
+.todo-edit-form input {
+  flex: 3;
+  margin: 3px 0;
+  padding-left: 15px;
+  font-size: 18px;
+  border: none;
+  background-color: #fffffb; /* gofun */
 }
 
-.todo-edit-form button{
-    flex: 1;
-    margin: 3px 0 3px 15px;
-    padding: 0;
-    font-size: 18px;
-    border: none;
-    color: #268785; /* seiheki */
-    background-color: #FFFFFB; /* gofun */
+.todo-edit-form button {
+  flex: 1;
+  margin: 3px 0 3px 15px;
+  padding: 0;
+  font-size: 18px;
+  border: none;
+  color: #268785; /* seiheki */
+  background-color: #fffffb; /* gofun */
 }
